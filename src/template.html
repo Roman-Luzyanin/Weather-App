@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+    <div id="weatherApp">
+        <img src="../icons/big-cloud.png" alt="" id="bigCloud">
+        <img src="../icons/small-cloud.png" alt="" id="smallCloud">
+        <div class="header">
+            <div class="logo">
+                Weather &thinsp; App
+            </div>
+            <div class="searchBar">
+                <input type="text" id="input" placeholder="Enter a city ...">
+                <button id="searchBtn">Search</button>
+            </div>
+            <div class="toddle">
+                C
+                <label for="checkbox" class="switch">
+                    <input type="checkbox" id="checkbox">
+                    <span class="switchBtn"></span>
+                </label>
+                F
+            </div>
+        </div>
+
+        <div class="main">
+            <div id="loading">Loading ...</div>
+            <div class="leftBlock">
+                <p id="cityName"></p>
+                <p id="date"></p>
+            </div>
+            <div class="centralBlock">
+                <img src="../icons/clear-day.svg" alt="" id="icon">
+                <p id="description"></p>
+            </div>
+            <div class="rightBlock">
+                <p id="temperature"></p>
+                <p id="feelsLike"></p>
+                <p id="humidity"></p>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="footerBlock">
+                <div id="day1"></div>
+                <div class="footerBlock__inner">
+                    <div class="left">
+                        <img src="#" alt="" id="icon1">
+                        <p id="description1"></p>
+                    </div>
+                    <div class="right">
+                        <p id="maxTemp1"></p>
+                        <p id="minTemp1"></p>
+                        <p id="humidity1"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="footerBlock">
+                <div id="day2"></div>
+                <div class="footerBlock__inner">
+                    <div class="left">
+                        <img src="#" alt="" id="icon2">
+                        <p id="description2"></p>
+                    </div>
+                    <div class="right">
+                        <p id="maxTemp2"></p>
+                        <p id="minTemp2"></p>
+                        <p id="humidity2"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="footerBlock">
+                <div id="day3"></div>
+                <div class="footerBlock__inner">
+                    <div class="left">
+                        <img src="#" alt="" id="icon3">
+                        <p id="description3"></p>
+                    </div>
+                    <div class="right">
+                        <p id="maxTemp3"></p>
+                        <p id="minTemp3"></p>
+                        <p id="humidity3"></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
