@@ -72,6 +72,7 @@ body {
     height: 34px;
     color: #4c7a9d;
     font-size: 24px;
+    user-select: none;
 }
 
 .searchBar {
@@ -99,6 +100,7 @@ input {
     align-items: center;
     column-gap: 5px;
     font-size: 30px;
+    user-select: none;
 }
 
 .switch {
