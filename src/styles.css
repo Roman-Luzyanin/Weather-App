@@ -9,9 +9,14 @@
 }
 
 body {
+<<<<<<< HEAD
     background-color: rgba(238, 232, 170, 0.5);
     user-select: none;
     font-size: 16px;
+=======
+    background-color: rgba(238, 232, 170, 0.6);
+    user-select: none;
+>>>>>>> cfbd6e6105211fb19e6df27c802e0c14e5beb850
 }
 
 #weatherApp {
@@ -74,6 +79,7 @@ body {
     width: 170px;
     color: #4c7a9d;
     font-size: 24px;
+    user-select: none;
 }
 
 .searchBar {
@@ -101,6 +107,7 @@ input {
     align-items: center;
     column-gap: 5px;
     font-size: 30px;
+    user-select: none;
 }
 
 .switch {
@@ -217,7 +224,11 @@ input {
 
 #day1, #day2, #day3 {
     align-self: center;
+<<<<<<< HEAD
     margin: 10px 0 0;
+=======
+    margin: 15px 0 0;
+>>>>>>> cfbd6e6105211fb19e6df27c802e0c14e5beb850
 }
 
 .footerBlock__inner {
