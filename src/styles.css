@@ -9,14 +9,9 @@
 }
 
 body {
-<<<<<<< HEAD
     background-color: rgba(238, 232, 170, 0.5);
     user-select: none;
     font-size: 16px;
-=======
-    background-color: rgba(238, 232, 170, 0.6);
-    user-select: none;
->>>>>>> cfbd6e6105211fb19e6df27c802e0c14e5beb850
 }
 
 #weatherApp {
@@ -72,18 +67,19 @@ body {
 }
 
 .logo {
-    background: url(../icons/logo-test.png) no-repeat;
-    background-size: contain;
-    background-position: 77px -1px;
     height: 34px;
     width: 170px;
     color: #4c7a9d;
     font-size: 24px;
-    user-select: none;
+    position: relative;
 }
 
-.searchBar {
-
+.logo::after {
+    content: url(../icons/logo-test.png);
+    position: absolute;
+    top: -51px;
+    left: 31px;
+    transform: scale(.3);
 }
 
 input {
@@ -107,7 +103,6 @@ input {
     align-items: center;
     column-gap: 5px;
     font-size: 30px;
-    user-select: none;
 }
 
 .switch {
@@ -224,11 +219,7 @@ input {
 
 #day1, #day2, #day3 {
     align-self: center;
-<<<<<<< HEAD
     margin: 10px 0 0;
-=======
-    margin: 15px 0 0;
->>>>>>> cfbd6e6105211fb19e6df27c802e0c14e5beb850
 }
 
 .footerBlock__inner {
