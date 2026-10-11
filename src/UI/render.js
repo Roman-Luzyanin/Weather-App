@@ -21,7 +21,7 @@ const weatherApp = document.querySelector('.weatherApp');
 async function renderWeather(data) {
 	await data;
 	const localeDate = new Date(data.currentConditions.datetimeEpoch * 1000);
-	city.textContent = data.address;
+	city.textContent = data.resolvedAddress.split(',')[0];
 	date.textContent = localeDate.toLocaleDateString('en-GB', options);
 	
 	image.src = images(`./${data.currentConditions.icon}.svg`);

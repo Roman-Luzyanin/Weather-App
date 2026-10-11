@@ -25,7 +25,7 @@ function initEvents() {
 		const query = capitalize(searchInput.value);
 		
 		try {
-			const data = await getWeather(query);
+			const data = await getWeather(query); console.log(data)
 			setWeatherData(data);
 			const weather = getWeatherData(getUnits());
 			renderWeather(weather);
@@ -33,6 +33,7 @@ function initEvents() {
 			
 		} catch {
 			renderError();
+			searchInput.value = '';
 			
 		} finally {
 			document.querySelector('.loading').classList.remove('visible');
