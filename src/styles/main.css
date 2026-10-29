@@ -45,8 +45,8 @@ body {
 
 .logo span {
 	position: absolute;
-	top: 0;
-	left: 52%;
+	top: 0px;
+	left: 84px;
 	width: 30px;
 	height: 30px;
 	background: no-repeat url(../assets/images/logo.png) center / contain;
